@@ -1,6 +1,4 @@
-/* Concepto: papel cuadriculado, el cuaderno de un programador.
-   Cuadrícula de fondo en la portada, años en números calados y proyectos en tarjetas.
-   Para cambiar los colores, editá las variables de :root. */
+
 
 :root {
   --bg: #f6f7f9;
@@ -24,7 +22,6 @@
   color-scheme: light;
 }
 
-/* Modo oscuro automático, según la configuración del dispositivo */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0b111a;
